@@ -1,0 +1,9 @@
+<div>
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">{{msg}}</button>
+    <block wx:else>
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+</div>
+
+<map longitude="{{longitude}}" latitude="{{latitude}}"></map>

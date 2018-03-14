@@ -1,0 +1,28 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarTitleText": "吕肥肥",
+        "navigationBarTextStyle": "#fff",
+        "enablePullDownRefresh" : true,
+        "navigationBarBackgroundColor" : "#ef006a",
+        "backgroundTextStyle" : "light"
+    },
+    "tabBar": {
+        "color" : "#000",
+        "list": [
+            {   
+                "pagePath": "pages/index/index",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/logs/logs",
+                "text": "日志"
+            }  
+        ]
+    },
+    "debug": true
+}
