@@ -5,24 +5,36 @@
     ],
     "window": {
         "backgroundTextStyle": "light",
-        "navigationBarTitleText": "吕肥肥",
+        "navigationBarTitleText": "唯妮海购",
         "navigationBarTextStyle": "#fff",
         "enablePullDownRefresh" : true,
-        "navigationBarBackgroundColor" : "#ef006a",
-        "backgroundTextStyle" : "light"
+        "navigationBarBackgroundColor" : "#f05b1a"
     },
     "tabBar": {
         "color" : "#000",
         "list": [
             {   
                 "pagePath": "pages/index/index",
+                "iconPath": "images/home.png",
+                "selectedIconPath" : "images/home1.png",
+                "selectedColor" : "f05b1a",
                 "text": "首页"
             },
             {
                 "pagePath": "pages/logs/logs",
-                "text": "日志"
+                "iconPath": "images/home.png",                
+                "text": "分类"
+            },
+            {
+                "pagePath": "pages/logs/logs",
+                "iconPath": "images/shop.png",                
+                "text": "购物车"
+            },
+            {
+                "pagePath": "pages/logs/logs",
+                "iconPath": "images/my.png",                
+                "text": "我的"
             }  
         ]
-    },
-    "debug": true
+    }
 }
